@@ -10,7 +10,7 @@ gulp.task('compileSass', (done) => {
        .pipe(sass().on('error', sass.logError))
        .pipe(maps.write('./'))
        .pipe(gulp.dest('css'));
-   done();
+    done();
 });
 
 gulp.task('watchSass', () => gulp.watch('src/scss/*.scss', gulp.parallel('compileSass')));

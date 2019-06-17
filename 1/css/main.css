@@ -1,5 +1,8 @@
-.row {
-  border: none; }
+.gutter .col-md-6 {
+  padding: 0; }
+
+.box-content {
+  margin: 0 1em; }
 
 .header {
   height: 125px;
@@ -25,14 +28,9 @@
 .banner-2 {
   background: #afb608; }
 
-.gutter .col-md-6 {
-  padding: 0; }
-
-@media (min-width: 992px) {
-  .wrap {
-    width: 75%; }
-  .box-content {
-    margin: 0 1em; } }
+@media (max-width: 575.98px) {
+  .xsm-padding {
+    padding: 0 2em; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .gutter .col-md-6 {
